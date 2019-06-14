@@ -1,0 +1,198 @@
+
+#lololo{
+background-image: url("505050.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+#oko{
+  border-left: #000000 2px solid;
+  border-right: #000000 2px solid;
+margin-left: 20%;
+margin-right:20%;
+background-color: white;
+padding: 20px;
+width: 60%;
+height: 100%;
+font-size: 160%;
+}
+      #okoko {
+        margin-left: 20%;
+        margin-right:20%;
+        background-color: black;
+        color: black;
+        border-left: #000000 2px solid;
+        border-right: #000000 2px solid;
+      }
+      #momomo{
+        border-left: #000000 2px solid;
+  border-right: #000000 2px solid;
+        margin-left: 20%;
+        margin-right:20%;
+      background-color: white;
+      
+ }
+
+ .info{
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1px;
+  text-align: justify;
+}
+
+a,a:active,a:hover{
+  color: red;
+}
+
+
+h5,h3,h2,h1{
+    font-family: 'Merriweather', serif;
+}
+h1{
+  margin-left: -5%;
+}
+h2{
+  margin-left: 10px;
+
+}
+p{
+  margin-left:15px;
+  margin-right:15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+h6{
+  font-family: 'Ubuntu', sans-serif;
+}
+#footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.divi {
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding: 20px;
+height: 380px;
+
+}
+
+.articli {
+  float: left;
+margin-right:0px;
+  width: 70%;
+  height: 380px;
+  padding: 20px;
+  text-align: justify;
+}
+.tlacitko{
+  text-align: right;
+}
+
+@media (max-width: 1350px) {
+  h1{
+    margin-left: 5%;
+    font-size: 165%;
+    text-align: center;
+  }
+  .tlacitko{
+    font-size: 165%;
+    text-align: center;
+}
+#okoko {
+  margin-left: 7%;
+  margin-right:7%;
+}
+#momomo{
+  margin-left: 7%;
+  margin-right:7%;
+}
+#oko{
+  margin-left: 7%;
+  margin-right:7%;
+  width: 86%;
+  }
+}
+@media (max-width: 900px) {
+  .divi{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .articli{
+    text-align: justify;
+    width: 100%;
+    height: auto;
+  }
+  #okoko {
+    margin-left: 3%;
+    margin-right:3%;
+    background-color: black;
+    color: black;
+  }
+  #momomo{ 
+  margin-left:3%;
+  margin-right:3%;
+  background-color: white;
+}
+#oko{
+  margin-left:3%;
+  margin-right:3%;
+  background-color: white;
+  padding: 40px;
+  width: 94%;
+  height: 100%;
+  }
+  h1{
+    margin-left: 5%;
+    font-size: 150%;
+    text-align: center;
+  }
+  .tlacitko{
+    text-align: center;
+}
+}
+
+.green{
+  margin-right: 25%;
+  margin-left:25%;
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .green{
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-align: center;
+  }
+}
+
+.manashow{
+  width: 60%;
+    margin-left: 20%;
+     margin-right: 20%;
+      margin-bottom: 10px;
+       margin-top: 10px;
+       height: auto;
+}
+.info2{
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+
+  padding: 10px;
+  width: 100%;
+
+}
+
