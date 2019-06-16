@@ -45,10 +45,12 @@ font-size: 160%;
 }
 
 a,a:active,a:hover{
-  color: red;
+  color: #bc0b0b;
 }
 
-
+h5{
+  margin-left: 5px;
+}
 h5,h3,h2,h1{
     font-family: 'Merriweather', serif;
 }
@@ -56,6 +58,7 @@ h1{
   margin-left: -5%;
 }
 h2{
+  color: #bc0b0b;
   margin-left: 10px;
 
 }
@@ -177,8 +180,8 @@ margin-right:0px;
     margin-left: 0%;
     text-align: center;
   }
-}
 
+}
 .manashow{
   width: 60%;
     margin-left: 20%;
@@ -186,6 +189,9 @@ margin-right:0px;
       margin-bottom: 10px;
        margin-top: 10px;
        height: auto;
+}
+h3{
+  color: #bc0b0b;
 }
 .info2{
   background-color: #ffdddd;
@@ -195,4 +201,91 @@ margin-right:0px;
   width: 100%;
 
 }
+.divicc{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 20px;
 
+  
+}
+  .articlicc {
+    float: left;
+  margin-right:0px;
+    width: 70%;
+  
+    padding: 20px;
+    text-align: justify;
+}
+
+input{
+  border: 0;
+  display: block;
+  background: none;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+  outline: none;
+}
+input:focus{
+  border: 2px solid #bc0b0b;
+  width: 22%;
+  text-align: center;
+  transition: 0.3s;
+}
+.inputtt{
+  background: #ecf0f1;
+}
+.submit{
+  width: 16%;
+  border: 2px solid black;
+  color: white;
+  background: #000000;
+}
+.submit:hover{
+  width: 14%;
+  border: 2px solid #bc0b0b;;
+  color: #bc0b0b;;
+  transition: 0.5s;
+
+}
+@media (max-width: 800px){
+  input:focus{
+    width: 44%;
+    margin-right:28%;
+    margin-left: 28%;
+  }
+  .submit{
+    width: 32%;
+    margin-right:34%;
+    margin-left: 34%;
+  }
+  .submit:hover{
+    width: 28%;
+    margin-right:36%;
+    margin-left: 36%;
+}
+}
+
+thead tr{
+  background: #1e2023;
+
+}
+ tr{
+  background: #7f8c8d;
+}
+table, td{
+  border: 1px solid black;
+  text-align: center;
+}
+table{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  color: white;
+}
+td{
+  height: 40px;
+}
